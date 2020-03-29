@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(135, 190, 180);
+}
+
 ul.nav {
   list-style-type: none;
   margin: 0;
@@ -8,10 +12,10 @@ ul.nav {
   
 li.nav {
   float: left;
-  border: 1px solid rgb(0, 0, 0);
+  border-right: 5px solid rgb(135, 190, 180);
 }
   
-li.nav a {
+li.nav a{
   display: block;
   color: white;
   text-align: center;
